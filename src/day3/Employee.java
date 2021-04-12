@@ -5,7 +5,9 @@ public class Employee {
 	private String name;
 	private static String company;
 	
-	public Employee(){}
+	public Employee(){
+		System.out.println("I am emplyee construcotr!!!");
+	}
 	public Employee(int n1) {}
 	
 	public void method1() {}

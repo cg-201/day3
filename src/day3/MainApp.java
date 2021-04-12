@@ -20,7 +20,6 @@ public class MainApp {
 		// uing the dot operator member functions
 		std.method1();
 		std.method1(100);
-		
 	}
 
 }
