@@ -1,17 +1,26 @@
 package day3;
 
 public class Student {
-	private int id; 
-	private String name; 
-	private static String company; 
+	// data member
+	public int id;  // 0
+	public String name;  // null
+	public static String company; // null 
 	
-	// constructor
-	public Student(){}
+	// spciaal member::  constructor :: new keyword
+	public Student(){
+		System.out.println("I AM SUPER SPECIAL, I AM CALLED USING NEW KEYWORD!");
+	}
 	public Student(int n) {}
 	public Student(int n1, int n2) {}
 	
-	public void method1() {}
-	public void method1(int n1) {}
+	
+	// member function
+	public void method1() {
+		System.out.println("I am method1, with no param!");
+	}
+	public void method1(int n1) {
+		System.out.println("I am method1, with one param!");
+	}
 	public void method1(int n1, int n2) {}
 	
 	public static void main() {}
